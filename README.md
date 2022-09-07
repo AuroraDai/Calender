@@ -15,6 +15,5 @@ Make the calendar easy to view on phone and desktop. Perform the basic functions
 - Switch the left and right button to previous month and next month;
 - Highlighted on the day of the date.
 
-## Demo
-  ### Uphead Main Page/mobile                                                           
+## Demo                                                     
 ![image](https://github.com/AuroraDai/Calender/blob/main/gif/calen.gif)
