@@ -5,12 +5,10 @@ Make the calendar easy to view on phone and desktop. Perform the basic functions
 # Features
 - Dark/Light mode
 - Next/Previous Month
-- Helping center webpage
-- Basic shopping cart
 - Responsive webpage
 ## Tech
 - Calculate the number of days in each month;
-- Layout of the grid;
+- Using grid and flex-box layout;
 - Calculate the day of the week and the first day of this month;
 - Calculate the day of the week on the last day of each month;
 - Render a few days before the first day of the month;
