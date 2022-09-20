@@ -58,46 +58,9 @@ function body_days() {
 
         // create <div> element
         let divs = document.createElement('div');
-        divs.setAttribute('index', i);
-        // var index = this.index = divs.getAttribute('index');
-        // let events = [];
-        // $(divs).click(function (e) {
-        //     var clicked = e.target;
-        //     // console.log(clicked); //current clicked <div>
-        //     var divs_index = divs.getAttribute('index');
-        //     // console.log(divs_index);// current clicked <div>'s index []
-        //     // clicked == index;
-        //     let dayString = (cMonth+1) + '/' + divs_index + '/' + cYear;
-            
-            // if (clicked) {
-            //     // modal pop-up when click
-            //     $('.modal').show();
-            //     $('#add').on('click', () => {
-            //         if (todoInput.value == '') {
-            //             $('.modal').hide();
-            //         } else {
-            //             events.push({
-            //                 date:dayString,
-            //                 title: todoInput.value
-            //             })
-            //             var lis = document.createElement('li');
-            //             divs.appendChild(lis);
-            //             lis.innerText = todoInput.value;
-            //             $('.modal').hide();
-            //             localStorage.setItem('events',JSON.stringify(events));
-            //         }   
-            //     })
-            //     todoInput.value = ''
-            // }
-
-
-        // })
-
-
         days.appendChild(divs);
         var span = '<span></span><span></span><span></span><span></span>';
         divs.innerHTML = i + span;
-
 
         //current date corlor
         let date2 = new Date()
@@ -106,18 +69,8 @@ function body_days() {
         }
 
 
-
-
-
-
     }
 
-
-    //if the localStorage dose hve events
-    // let events = localStorage.getItem('events') ? JSON.parse(localStorage.getItem('events')) : [];
-    // $('#cancel').on('click', () => {
-    //     $('.modal').hide();
-    // })
 
 
 }
@@ -148,34 +101,6 @@ next.addEventListener('click', () => {
 
 
 })
-
-
-
-//-----------------------------------------------------------------------------------
-// // hide the month_list box first.
-// $('.month_list').hide();
-
-
-// // month picker
-// let month_list = document.querySelector('.month_list');
-// month_names.forEach((e, index) => {
-//     let month = document.createElement('div');
-//     month.innerHTML = '<div>' + e + '</div>';
-//     month_list.appendChild(month);
-//     $(month).click(function () {
-//         //once make the chose, the month_list will be hidden again.
-//         $('.month_list').stop().slideUp(200);
-//     })
-
-
-// });
-
-
-// $('.months').click(function () {
-
-//     $(this).siblings('.month_list').stop().slideToggle(200);
-
-// })
 
 
 
